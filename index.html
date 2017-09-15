@@ -9,18 +9,20 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
+    <div class="container-fluid">
+      <div class="titlearea">
         <h1>Track Suggester</h1>
       </div>
 
       <div class="row">
+        <div class="col-md-12">
+          <h4>
+            Please select from below how you feel regarding each question.
+          </h4>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
-          <h2>
-            Let's detetermine which track would be right for you by choosing your interests
-            from the dropdown boxes below
-          </h2>
-          <br>
           <form id="form">
             <ul>
               <li>
@@ -72,21 +74,47 @@
           </form>
         </div>
         <div class="col-md-6">
-          <div class="yourcourse">
-            <h2>The best track for you is:</h2>
-            <div id = output1>
-              <img src="img/html.svg" height=200>
-            </div>
-            <div id = output2>
-              <img src="img/csharp.png" height=200>
-            </div>
-            <div id = output3>
-              <img src="img/ruby.png" height=200>
+          <div class="rightside">
+            <div class="yourcourse">
+              <h4>The best track for you is:</h4>
+              <div id = output1>
+                <img src="img/html.svg" height=200>
+                <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
+              </div>
+              <div id = output2>
+                <img src="img/csharp.png" height=200>
+                <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
+              </div>
+              <div id = output3>
+                <img src="img/ruby.png" height=200>
+                <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
+      <div class="bottom">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="html">
+                <p>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.</p>
+              </div>
+              <br>
+              <div class="sharp">
+                <p>C# (pronounced "C-sharp") is an object-oriented programming language from Microsoft that aims to combine the computing power of C++ with the programming ease of Visual Basic. C# is based on C++ and contains features similar to those of Java.</p>
+              </div>
+              <br>
+              <div class="ruby">
+                <p>Ruby on Rails, or simply Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern.</p>
+              </div>
+              <br>
+            </div>
+          </div>
+
+      </div>
+    </div>
   </body>
 </html>

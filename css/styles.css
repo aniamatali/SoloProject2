@@ -10,6 +10,29 @@
   display:none;
 }
 
+.bottom {
+  border-top:2px solid black;
+  display:none;
+  padding-top:20px;
+  text-align:justify;
+}
+
+.html {
+  display:none;
+}
+
+.sharp {
+  display:none;
+}
+
+.ruby {
+  display:none;
+}
+
+h4 {
+  text-align:center;
+}
+
 li {
   list-style:none;
 }
@@ -20,4 +43,62 @@ label {
 
 select {
   width:250px;
+}
+
+.yourcourse {
+  display:none;
+  text-align:center;
+}
+
+.rightside {
+}
+
+.rightside img {
+  margin:auto;
+  display:block;
+}
+
+.container-fluid p {
+  margin:5px;
+  font-size:15px;
+}
+
+.container-fluid {
+  margin-top:20px;
+  width:700px;
+  background-color:#f3f3f3;
+  padding-left:0;
+  padding-right:0;
+  border:2px solid black;
+}
+
+
+.titlearea {
+  text-align:center;
+  background-color:#819ac1;
+  height:50px;
+  border-bottom:2px solid black;
+}
+
+
+
+.titlearea h1 {
+  margin:0;
+  padding:0;
+}
+
+select:hover {
+  background-color:#b8c3d6;
+}
+
+option:hover {
+  background-color:#819ac1;
+}
+
+select {
+  cursor:pointer;
+}
+
+button:hover {
+  background-color:#819ac1;
 }

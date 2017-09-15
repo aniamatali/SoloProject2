@@ -12,14 +12,29 @@ $(document).ready(function() {
 
     var result = total(number1,number2,number3,number4,number5);
       if (result >1 && result <= 6) {
+        $(".yourcourse").show();
+        $(".bottom").show();
+        $(".html").show()
+        $(".sharp").hide()
+        $(".ruby").hide()
         $("#output1").show();
         $("#output2").hide();
         $("#output3").hide();
       } else if (result > 6 && result <= 10) {
+        $(".yourcourse").show();
+        $(".bottom").show();
+        $(".sharp").show()
+        $(".html").hide()
+        $(".ruby").hide()
         $("#output2").show();
         $("#output1").hide();
         $("#output3").hide();
       } else if (result >= 10 && result <= 20) {
+        $(".yourcourse").show();
+        $(".bottom").show();
+        $(".ruby").show()
+        $(".html").hide()
+        $(".sharp").hide()
         $("#output3").show();
         $("#output1").hide();
         $("#output2").hide();
