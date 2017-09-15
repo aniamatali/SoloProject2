@@ -9,3 +9,15 @@
 #output3 {
   display:none;
 }
+
+li {
+  list-style:none;
+}
+
+label {
+  width:250px;
+}
+
+select {
+  width:250px;
+}

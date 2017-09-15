@@ -14,61 +14,78 @@
         <h1>Track Suggester</h1>
       </div>
 
-      <h2>
-        Let's detetermine which track would be right for you by choosing your interests
-        from the dropdown boxes below
-      </h2>
-
-      <form id="form">
-        <label for="Question1">How much do you like math?</label>
-        <select id="Question1">
-          <option value="1">Not at all</option>
-          <option value="2">Indifferent</option>
-          <option value="3">A lot</option>
-        </select>
-        <br>
-        <label for="Question2">How much do you like art?</label>
-        <select id="Question2">
-          <option value="1">Hate it</option>
-          <option value="2">Indifferent</option>
-          <option value="3">Love it</option>
-        </select>
-        <br>
-        <label for="Question3">Do you enjoy logic puzzles?</label>
-        <select id="Question3">
-          <option value="1">Not at all</option>
-          <option value="2">Indifferent</option>
-          <option value="3">A lot</option>
-        </select>
-        <br>
-        <label for="Question4">Does creating an app interest you?</label>
-        <select id="Question4">
-          <option value="1">No</option>
-          <option value="2">Indifferent</option>
-          <option value="3">A lot</option>
-        </select>
-        <br>
-        <label for="Question5">Do you like making things pretty?</label>
-        <select id="Question5">
-          <option value="1">Hate it</option>
-          <option value="2">Indifferent</option>
-          <option value="3">A lot</option>
-        </select>
-        <br>
-        <button type="submit" class="btn">Find me my match</button>
-      </form>
-
-
-      <div id = output1>
-        <p>HTML/CSS</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>
+            Let's detetermine which track would be right for you by choosing your interests
+            from the dropdown boxes below
+          </h2>
+          <br>
+          <form id="form">
+            <ul>
+              <li>
+                <label for="Question1">How much do you like math?</label>
+                <br>
+                <select id="Question1">
+                  <option value="1">Not at all</option>
+                  <option value="2">Indifferent</option>
+                  <option value="3">A lot</option>
+                </select>
+              </li>
+            <li>
+              <label for="Question2">How much do you like art?</label>
+              <br>
+              <select id="Question2">
+                <option value="1">Hate it</option>
+                <option value="2">Indifferent</option>
+                <option value="3">Love it</option>
+              </select>
+            </li>
+            <li>
+              <label for="Question3">Do you enjoy logic puzzles?</label>
+              <br>
+              <select id="Question3">
+                <option value="1">Not at all</option>
+                <option value="2">Indifferent</option>
+                <option value="3">A lot</option>
+              </select>
+            </li>
+            <li>
+              <label for="Question4">Does creating an app interest you?</label>
+              <br>
+              <select id="Question4">
+                <option value="1">No</option>
+                <option value="2">Indifferent</option>
+                <option value="3">A lot</option>
+              </select>
+            </li>
+            <li>
+            <label for="Question5">Do you like making things pretty?</label><br>
+              <select id="Question5">
+                <option value="1">Hate it</option>
+                <option value="2">Indifferent</option>
+                <option value="3">A lot</option>
+              </select>
+            </li>
+            <br>
+            <button type="submit" class="btn">Find me my match</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="yourcourse">
+            <h2>The best track for you is:</h2>
+            <div id = output1>
+              <p>HTML/CSS</p>
+            </div>
+            <div id = output2>
+              <p>C#</p>
+            </div>
+            <div id = output3>
+              <p>rubyonrails</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div id = output2>
-        <p>C#</p>
-      </div>
-      <div id = output3>
-        <p>rubyonrails</p>
-      </div>
-
     </div>
 
   </body>
