@@ -18,6 +18,8 @@ _{HTML,CSS,Javascript}_
 
 ### License
 
+### [Click here](http://aniamatali.github.io/SoloProject2) to view this Project.
+
 *{Feel free to use this for whatever you want...}*
 
 Copyright (c) 2017 **_{Alvin Isaac Niamatali}_**
