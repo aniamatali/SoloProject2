@@ -43,5 +43,16 @@ $(document).ready(function() {
 
       event.preventDefault();
 
+      $("button#reset").click(function() {
+        $(".yourcourse").hide();
+        $(".bottom").hide();
+        $(".html").hide();
+        $(".sharp").hide();
+        $(".ruby").hide();
+        $("#output1").hide();
+        $("#output2").hide();
+        $("#output3").hide();
+      });
+
     });
   });
