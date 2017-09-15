@@ -12,6 +12,7 @@ $(document).ready(function() {
 
     var result = total(number1,number2,number3,number4,number5);
       if (result >1 && result <= 6) {
+
         $(".yourcourse").show();
         $(".bottom").show();
         $(".html").show()

@@ -1,3 +1,7 @@
+body {
+
+}
+
 #output1 {
   display:none;
 }
@@ -11,10 +15,13 @@
 }
 
 .bottom {
-  border-top:2px solid black;
+
   display:none;
   padding-top:20px;
   text-align:justify;
+  background-color: #243a5e;
+  color:white;
+  border-bottom-right-radius:60px;
 }
 
 .html {
@@ -70,21 +77,25 @@ select {
   padding-left:0;
   padding-right:0;
   border:2px solid black;
+  border-bottom-right-radius:66px;
+  border-top-left-radius:66px;
 }
 
 
 .titlearea {
   text-align:center;
-  background-color:#819ac1;
+  background-color:#243a5e;
   height:50px;
   border-bottom:2px solid black;
+  border-top-left-radius:66px;
 }
-
-
 
 .titlearea h1 {
   margin:0;
   padding:0;
+  color:#f3f3f3;
+  text-align:center;
+  /*border-top-left-radius:66px;*/
 }
 
 select:hover {
@@ -101,4 +112,8 @@ select {
 
 button:hover {
   background-color:#819ac1;
+}
+
+a:hover {
+  text-decoration: underline;
 }

@@ -13,89 +13,86 @@
       <div class="titlearea">
         <h1>Track Suggester</h1>
       </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <h4>
-            Please select from below how you feel regarding each question.
-          </h4>
+        <div class="row">
+          <div class="col-md-12">
+            <h4>
+              Please select from below how you feel regarding each question.
+            </h4>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <form id="form">
-            <ul>
+        <div class="row">
+          <div class="col-md-6">
+            <form id="form">
+              <ul>
+                <li>
+                  <label for="Question1">How much do you like math?</label>
+                  <br>
+                  <select id="Question1">
+                    <option value="1">Not at all</option>
+                    <option value="2">Indifferent</option>
+                    <option value="3">A lot</option>
+                  </select>
+                </li>
               <li>
-                <label for="Question1">How much do you like math?</label>
+                <label for="Question2">How much do you like art?</label>
                 <br>
-                <select id="Question1">
+                <select id="Question2">
+                  <option value="1">Hate it</option>
+                  <option value="2">Indifferent</option>
+                  <option value="3">Love it</option>
+                </select>
+              </li>
+              <li>
+                <label for="Question3">Do you enjoy logic puzzles?</label>
+                <br>
+                <select id="Question3">
                   <option value="1">Not at all</option>
                   <option value="2">Indifferent</option>
                   <option value="3">A lot</option>
                 </select>
               </li>
-            <li>
-              <label for="Question2">How much do you like art?</label>
+              <li>
+                <label for="Question4">Does creating an app interest you?</label>
+                <br>
+                <select id="Question4">
+                  <option value="1">No</option>
+                  <option value="2">Indifferent</option>
+                  <option value="3">A lot</option>
+                </select>
+              </li>
+              <li>
+              <label for="Question5">Do you like making things pretty?</label><br>
+                <select id="Question5">
+                  <option value="1">Hate it</option>
+                  <option value="2">Indifferent</option>
+                  <option value="3">A lot</option>
+                </select>
+              </li>
               <br>
-              <select id="Question2">
-                <option value="1">Hate it</option>
-                <option value="2">Indifferent</option>
-                <option value="3">Love it</option>
-              </select>
-            </li>
-            <li>
-              <label for="Question3">Do you enjoy logic puzzles?</label>
-              <br>
-              <select id="Question3">
-                <option value="1">Not at all</option>
-                <option value="2">Indifferent</option>
-                <option value="3">A lot</option>
-              </select>
-            </li>
-            <li>
-              <label for="Question4">Does creating an app interest you?</label>
-              <br>
-              <select id="Question4">
-                <option value="1">No</option>
-                <option value="2">Indifferent</option>
-                <option value="3">A lot</option>
-              </select>
-            </li>
-            <li>
-            <label for="Question5">Do you like making things pretty?</label><br>
-              <select id="Question5">
-                <option value="1">Hate it</option>
-                <option value="2">Indifferent</option>
-                <option value="3">A lot</option>
-              </select>
-            </li>
-            <br>
-            <button type="submit" class="btn">Find me my match</button>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <div class="rightside">
-            <div class="yourcourse">
-              <h4>The best track for you is:</h4>
-              <div id = output1>
-                <img src="img/html.svg" height=200>
-                <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
-              </div>
-              <div id = output2>
-                <img src="img/csharp.png" height=200>
-                <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
-              </div>
-              <div id = output3>
-                <img src="img/ruby.png" height=200>
-                <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
+              <button type="submit" class="btn">Find me my match</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="rightside">
+              <div class="yourcourse">
+                <h4>The best track for you is:</h4>
+                <div id = output1>
+                  <img src="img/html.svg" height=200>
+                  <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
+                </div>
+                <div id = output2>
+                  <img src="img/csharp.png" height=200>
+                  <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
+                </div>
+                <div id = output3>
+                  <img src="img/ruby.png" height=200>
+                  <a href="http://www.epicodus.com" target="_blank">Enroll now</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
       <div class="bottom">
-
           <div class="row">
             <div class="col-md-12">
               <div class="html">
@@ -113,7 +110,6 @@
               <br>
             </div>
           </div>
-
       </div>
     </div>
   </body>
