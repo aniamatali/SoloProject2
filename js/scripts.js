@@ -15,11 +15,11 @@ $(document).ready(function() {
         $("#output1").show();
         $("#output2").hide();
         $("#output3").hide();
-      } else if (result = 6 && result <= 10) {
+      } else if (result > 6 && result <= 10) {
         $("#output2").show();
         $("#output1").hide();
         $("#output3").hide();
-      } else if (result > 10 ) {
+      } else if (result >= 10 && result <= 20) {
         $("#output3").show();
         $("#output1").hide();
         $("#output2").hide();
@@ -29,39 +29,3 @@ $(document).ready(function() {
 
     });
   });
-
-//     $("output1").show();
-//
-//   alert(total);
-//
-//   })
-// });
-// $(document).ready(function() {
-//   $("form#form").submit(function(event) {
-//
-//
-// //     var total = add("#Question1","Question2","Question3","Question4","Question5").val());
-// //       if (questionOne + questionTwo + questionThree + questionFour + questionFive < 6 ) {
-// //
-// //         $("#output1").show();
-// //         $("#output2").hide();
-// //         $("#output3").hide();
-// //
-// //       } else if (questionOne + questionTwo + questionThree + questionFour + questionFive >= 6 && < 11) {
-// //         $("#output2").show();
-// //         $("#output1").hide();
-// //         $("#output3").hide();
-// //
-// //       } else if (questionOne + questionTwo + questionThree + questionFour + questionFive >= 11 && < 16) {
-// //         $("#output3").show();
-// //         $("#output1").hide();
-// //         $("#output2").hide();
-// //       }
-// //
-// //
-// //
-// // event.preventDefault();
-// //
-// // });
-// //
-// // });
